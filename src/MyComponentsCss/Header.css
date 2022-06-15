@@ -1,0 +1,9 @@
+.HeaderContainer{
+    position: sticky;
+    top: 0;
+}
+.nav-link:hover{
+    font-weight: bolder;
+}
+
+

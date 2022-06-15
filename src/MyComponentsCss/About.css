@@ -1,0 +1,33 @@
+.mainContainer{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutContainer{
+    width: 80%;
+    height: 350px;
+
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px;
+    margin: 50px;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    box-shadow: 0px 0px 7px 0px lightblue;
+}
+
+h4{
+    margin-bottom: 28px;
+
+    font-weight: bolder;
+}

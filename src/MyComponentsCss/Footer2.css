@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.Footer2Section{
+    /* border: 2px solid red; */
+    /* position: sticky;
+    bottom: 0; */
+}
+/* FOOTER */
+.container_footer{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+.row_footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    box-sizing: border-box;
+
+    /* position: sticky;
+    bottom: 0; */
+}
+.col_footer{
+    width: 25%;
+    padding: 15px 20px;
+}
+.col_footer h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500px;
+    position: relative;
+    
+}
+/* .col_footer::before{
+    content: '';
+    position: absolute;
+    left: auto;
+    bottom: 200px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+} */
+.col_footer ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.col_footer ul li a{
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.col_footer ul li a:hover{
+    color: #ffffff;
+    padding-left: 10px;
+}
+.col_footer .social_links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5 ease;
+
+}
+.col_footer .social_links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+.copy_Right{
+    width: 100%;
+    /* border: 2px solid red; */
+    color: white;
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.copy_Flex{
+    /* border: 2px solid red; */
+}
+.copy_Paragraph{
+
+}
+
+/* responsive */
+@media(max-width: 767px){
+    .col_footer {
+        width: 81%;
+        margin-bottom: 35px;
+    }
+}
+@media(max-width: 574px){
+    .col_footer {
+        width: 100%;
+        
+    }
+}
